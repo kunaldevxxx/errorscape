@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+import '../src/cli.js'; // Use ES module import
+
+export const apiBase = 'https://registry.npmjs.org';
