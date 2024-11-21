@@ -6,7 +6,7 @@ Managing dependencies in modern software development is challenging. Developers 
 
 ## Our Solution
 
-# **Errorscape** automates the process of checking your project's dependencies for known issues using GitHub’s issue tracker. It helps you stay on top of bugs, security flaws, and unmaintained dependencies.
+Errorscape automates the process of checking your project's dependencies for known issues using GitHub’s issue tracker. It helps you stay on top of bugs, security flaws, and unmaintained dependencies.
 
 ### Features:
 - Scans both `dependencies` and `devDependencies`.
@@ -35,15 +35,16 @@ npm install
 
 GITHUB_API_TOKEN=your-github-api-token
 
-Run the dependency check:
-
-npm run check
+Run -
+error-helper write this in terminal 
 
 # How It Works
 
 Reads package.json: Gets the list of dependencies.
 Fetches issues: Queries GitHub for issues related to each dependency.
 Displays results: Logs warnings or success messages based on the issues found.
+Analyze an Error Stack Trace 
+Check Dependencies for Issues 
 
 # Competitors
 
@@ -69,6 +70,6 @@ Create a new branch.
 Make your changes.
 Submit a pull request.
 
-# **Keep your dependencies healthy and secure with Errorscape!**
+# Keep your dependencies healthy and secure with Errorscape!
 
 # Contact - kunalkhare2004@gmail.com
